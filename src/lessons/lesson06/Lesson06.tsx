@@ -95,7 +95,7 @@ const tomAndJerry:IUser[] = [tom, jerry]
 
 console.log(tomAndJerry);
 
-    
+
   
     return (
       <div className='lesson-container'>
