@@ -18,7 +18,7 @@ export default function Lesson04() {
                 
                 <p>
                     Lightsaber colors: {' '} 
-                    {hero.lightsaberColors.map((color, index) => (
+                    {hero.lightsaberColors?.map((color, index) => (
                     <span key={index}>{color} </span>
                     // 🔐 <div style={{backgroundColor: color, height: '10px', width: '10px'}}></div>
                 ))}
@@ -29,3 +29,9 @@ export default function Lesson04() {
         </div> 
     );
 }
+
+// На основании четвертого урока сделайте:
+
+// 1. TSX компонент StarWarsGallery.tsx с контейнером для отображения карточек.
+// 2. TSX компонент HeroCard.tsx с карточкой отдельного персонажа. Данные прокидывайте в карточку через props во время итерации с map().
+// 3. Данные для отображения из data.js перепишите на data.ts.
