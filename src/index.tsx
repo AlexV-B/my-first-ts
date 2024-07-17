@@ -1,7 +1,9 @@
 import ReactDOM from 'react-dom/client';
 import './index.css';
 //import Lesson04 from './lessons/lesson_04/Lesson04';
-import StarsWarsGallery from './components/StarWarsGallery/StarsWarsGallery';
+//import StarsWarsGallery from './components/StarWarsGallery/StarsWarsGallery';
+import Lesson10 from './lessons/lesson10/Lesson10';
+//import Lesson09 from './lessons/lesson09/Lesson09'
 //import App from './app/App';
 // import Layout from './components/layout/Layout';
 //import Lesson06 from './lessons/lesson06/Lesson06';
@@ -22,7 +24,9 @@ root.render(
     <LoginForm /> */}
     {/* <Layout /> */}
     {/* <Lesson04/> */}
-    <StarsWarsGallery />
+    {/* <StarsWarsGallery /> */}
+    {/* <Lesson09/> */}
+    <Lesson10 />
   </>
 );
 
