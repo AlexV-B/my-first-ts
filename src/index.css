@@ -20,3 +20,9 @@ code {
   width: 70%;
   margin: auto;
 }
+
+header > a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+}

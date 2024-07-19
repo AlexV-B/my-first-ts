@@ -1,0 +1,16 @@
+.loginForm {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.loginForm input {
+    margin-bottom: 3px;
+}
+
+.loginForm > button {
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 3px;
+}
+
