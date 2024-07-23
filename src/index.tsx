@@ -10,6 +10,7 @@ import LoginForm from './components/LoginForm/LoginForm';
 import Counter from './counter/Counter';
 import FeedBack from './components/feedback/FeedBack';
 import HomePage from './components/HomePage/HomePage';
+import Shop from './components/shop/Shop';
 //import Consultation04 from './Consultations/Consultation04/Consultation04';
 
 //import Lesson12 from './lessons/Lesson12/Lesson12';
@@ -40,6 +41,8 @@ root.render(
           <Route path='/login-form' element={<LoginForm/>}/>
           <Route path='/counter' element={<Counter/>}/>
           <Route path='/feedback' element={<FeedBack/>}/>
+          <Route path='/shop' element={<Shop />}/>
+          <Route path='*' element={<h1>Error 404 😩</h1>}/>
     {/* <App /> */}
     {/* <Lesson06 /> */}
     {/* <Lesson07 /> */}
@@ -63,7 +66,7 @@ root.render(
 
 // ## задание
 
-// 1. Сделайте маршрутизацию (роутинг) для двух старых 
+// 1. Сделайте маршрутизацию (routing) для двух старых 
 // уже написанных компонентов - добавьте пути 
 // и ссылки на компоненты (выберите их по вкусу, 
 //   это могут быть ссылки на уроки)

@@ -1,0 +1,22 @@
+.shopForm > button {
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(255, 208, 255);
+  }
+
+  .shopGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    width: 100%;
+    gap: 10px;
+  }
+
+  .container {
+    width: 80%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    border-radius: 8px;
+    padding: 20px;
+    background-color: antiquewhite;
+  }
